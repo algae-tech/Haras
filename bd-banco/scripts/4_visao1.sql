@@ -23,6 +23,3 @@ JOIN baia_historico h ON h.baia_id_baia = b.id_baia
 JOIN cavalo c ON c.id_cavalo = h.cavalo_id_cavalo
 WHERE h.data_saida IS NULL;
 
-SET SQL_MODE=@OLD_SQL_MODE;
-SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
-SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
