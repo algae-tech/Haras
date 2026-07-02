@@ -5,7 +5,7 @@
 -- Ver 3_trigger.md para a explicação da regra de negócio.
 -- =====================================================================
 
-USE haras;
+USE mydb;
 
 DELIMITER $$
 

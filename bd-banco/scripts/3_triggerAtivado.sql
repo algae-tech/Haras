@@ -6,11 +6,11 @@
 -- do cavalo ANTES e DEPOIS de uma nova venda ser inserida.
 --
 -- Ele seleciona dinamicamente um cavalo com status 'Ativo' já existente
--- no seu banco (não depende de IDs fixos), então não importa como sua
--- tabela `cavalo` já está populada.
+-- no seu banco (não depende de IDs fixos), então funciona com os dados
+-- que você já populou em 2_popular.sql.
 -- =====================================================================
 
-USE haras;
+USE mydb;
 
 -- 0) Guarda em variáveis de sessão o ID de um cavalo Ativo, de um
 --    cliente e de um funcionário quaisquer já cadastrados
