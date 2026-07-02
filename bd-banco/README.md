@@ -48,21 +48,6 @@ Se não funcionar (ocorre de vez em quando no Windows), precisamos passar o cami
 docker exec -it meubanco mysql -h 127.0.0.1 -P 3306 -u root -p
 ```
 
-```
-source ./scripts/3_trigger.sql
-```
-
-```
-source ./scripts/2_popular.sql
-```
-
-source ./scripts/3_triggerAtivado.sql
-```
-
-```
-source ./consultas/4_visao1.sql
-```
-
 Caso não consiga faer commit das alterações no github
 
 ```
@@ -77,6 +62,22 @@ Para manipularmos o banco, além dos próprios comandos na CLI do MySQL, podemos
 
 ```sql
 SOURCE ./scripts/arquivo.sql
+```
+
+```
+source ./scripts/3_trigger.sql
+```
+
+```
+source ./scripts/2_popular.sql
+```
+
+```
+source ./scripts/3_triggerAtivado.sql
+```
+
+```
+source ./consultas/4_visao1.sql
 ```
 
 ### Fazendo backup dos dados
