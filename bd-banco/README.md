@@ -80,6 +80,24 @@ source ./scripts/3_triggerAtivado.sql
 source ./scripts/4_visao1.sql
 ```
 
+Testar vie
+
+```
+INSERT INTO venda (
+    data_venda,
+    valor,
+    cliente_id_cliente,
+    cavalo_id_cavalo,
+    funcionario_id_funcionario
+)
+VALUES (
+    NOW(),
+    50000.00,
+    @id_cliente_teste,
+    @id_cavalo_teste,
+    @id_funcionario_teste
+);
+```
 ### Fazendo backup dos dados
 
 A pasta `dados` do nosso projeto armazena toda a instalação do `MySQL`. Se continuarmos no mesmo computador, sem problemas: os dados gerados continuarão ali. No entanto, se usarmos o Github para o gerenciamento do projeto, essa abordagem pode não ser adequada. 
