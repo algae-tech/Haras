@@ -1,0 +1,16 @@
+
+services:
+  mysql:
+    image: mysql:8.1
+    container_name: meubanco
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: admin
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./dados/mysql:/var/lib/mysql
+      - ./inicializar:/docker-entrypoint-initdb.d  # scripts de inicialização
+      - ./scripts:/scripts   # scripts que você pode executar manualmente
+
+
