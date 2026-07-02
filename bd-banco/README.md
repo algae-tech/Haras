@@ -51,14 +51,22 @@ docker exec -it meubanco mysql -h 127.0.0.1 -P 3306 -u root -p
 ```
 source ./scripts/3_trigger.sql
 ```
+
 ```
 source ./scripts/2_popular.sql
 ```
+
 source ./scripts/3_triggerAtivado.sql
 ```
 
-````
+```
 source ./consultas/4_visao1.sql
+```
+
+Caso não consiga faer commit das alterações no github
+
+```
+sudo rm -r dados
 ```
 
 Agora, teremos acesso às operações SQL rodando diretamente do nosso container, chamado `meubanco`. 
