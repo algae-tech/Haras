@@ -77,7 +77,7 @@ source ./scripts/3_triggerAtivado.sql
 ```
 
 ```
-source ./consultas/4_visao1.sql
+source ./scripts/4_visao1.sql
 ```
 
 ### Fazendo backup dos dados
