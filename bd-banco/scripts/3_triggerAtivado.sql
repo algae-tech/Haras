@@ -35,7 +35,19 @@ SELECT id_cavalo, nome, status
 -- Resultado esperado: status = 'Vendido' (alterado automaticamente pelo trigger)
 
 -- 4) Teste de bloqueio: tentar vender o MESMO cavalo novamente deve falhar
---    com o erro lançado pelo trigger (execute a linha abaixo para testar):
--- INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario)
--- VALUES (NOW(), 50000.00, @id_cliente_teste, @id_cavalo_teste, @id_funcionario_teste);
+-- com o erro lançado pelo trigger (execute a linha abaixo para testar):
+--INSERT INTO venda (
+--    data_venda,
+--    valor,
+--    cliente_id_cliente,
+--    cavalo_id_cavalo,
+--    funcionario_id_funcionario
+--)
+--VALUES (
+--    NOW(),
+--    50000.00,
+--    @id_cliente_teste,
+--    @id_cavalo_teste,
+--    @id_funcionario_teste
+--);
 -- Erro esperado: "Operação inválida: este cavalo já foi vendido anteriormente."
