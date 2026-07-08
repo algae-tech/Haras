@@ -1082,10 +1082,7 @@ INSERT INTO baia_historico (data_entrada, data_saida, baia_id_baia, cavalo_id_ca
 INSERT INTO baia_historico (data_entrada, data_saida, baia_id_baia, cavalo_id_cavalo) VALUES ('2023-10-16 00:00:00', NULL, 24, 14);
 
 -- =====================================================
--- VENDA (100 registros)
--- =====================================================
--- =====================================================
--- VENDA (100 registros)
+-- VENDA (50 registros)
 -- =====================================================
 INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2024-05-20 00:00:00', 13548.39, 79, 34, 15);
 INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2023-05-13 00:00:00', 112062.69, 99, 26, 37);
@@ -1136,54 +1133,3 @@ INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, func
 INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2023-06-12 00:00:00', 29650.53, 11, 66, 93);
 INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2023-06-04 00:00:00', 90667.78, 17, 4, 4);
 INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2023-05-30 00:00:00', 93678.13, 60, 59, 84);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2024-11-04 00:00:00', 140932.79, 77, 89, 61);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2024-07-15 00:00:00', 23992.66, 20, 46, 71);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2024-10-27 00:00:00', 19901.95, 2, 65, 93);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2024-03-20 00:00:00', 148049.67, 96, 61, 18);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2023-01-29 00:00:00', 41516.05, 25, 24, 28);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2023-09-04 00:00:00', 115733.57, 38, 95, 65);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2024-07-11 00:00:00', 65756.82, 42, 41, 34);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2025-01-27 00:00:00', 56298.68, 17, 37, 8);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2024-08-20 00:00:00', 123181.82, 59, 70, 85);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2025-04-26 00:00:00', 138069.56, 67, 74, 54);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2024-06-28 00:00:00', 27016.28, 65, 83, 17);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2025-06-12 00:00:00', 68818.11, 66, 44, 3);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2023-01-05 00:00:00', 117525.65, 24, 54, 78);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2023-05-25 00:00:00', 73656.48, 20, 36, 23);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2024-07-23 00:00:00', 13954.52, 93, 40, 16);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2024-06-27 00:00:00', 85539.07, 88, 78, 67);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2024-07-27 00:00:00', 13239.27, 100, 19, 14);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2023-02-13 00:00:00', 116977.86, 25, 99, 36);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2024-07-29 00:00:00', 9040.53, 65, 38, 58);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2023-11-30 00:00:00', 93816.54, 9, 18, 57);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2024-06-08 00:00:00', 33913.47, 65, 6, 78);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2024-06-04 00:00:00', 82326.39, 36, 93, 58);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2023-09-11 00:00:00', 106386.59, 62, 98, 65);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2023-07-27 00:00:00', 126799.97, 34, 100, 72);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2023-05-05 00:00:00', 61892.83, 18, 80, 54);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2024-11-18 00:00:00', 39892.62, 41, 29, 10);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2024-11-16 00:00:00', 48903.11, 10, 16, 28);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2023-06-08 00:00:00', 141228.18, 16, 75, 100);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2024-01-10 00:00:00', 25731.95, 83, 92, 85);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2023-08-13 00:00:00', 113268.9, 18, 56, 60);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2024-05-13 00:00:00', 28605.3, 13, 73, 51);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2023-06-15 00:00:00', 107416.92, 86, 88, 29);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2023-12-14 00:00:00', 66085.09, 66, 31, 52);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2023-04-05 00:00:00', 109711.87, 46, 9, 41);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2024-07-21 00:00:00', 71507.26, 3, 55, 44);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2024-01-29 00:00:00', 53067.19, 91, 57, 3);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2024-06-08 00:00:00', 144312.33, 80, 12, 38);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2025-06-16 00:00:00', 20193.04, 15, 5, 30);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2023-02-10 00:00:00', 136355.31, 34, 28, 35);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2025-02-12 00:00:00', 23785.56, 24, 67, 35);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2025-04-18 00:00:00', 142170.23, 55, 8, 87);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2024-07-03 00:00:00', 138279.87, 52, 77, 20);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2024-12-18 00:00:00', 52422.03, 74, 47, 64);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2025-03-29 00:00:00', 104789.81, 36, 13, 8);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2023-10-03 00:00:00', 141060.71, 55, 71, 10);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2025-03-31 00:00:00', 42780.02, 82, 10, 12);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2023-03-10 00:00:00', 43345.39, 78, 7, 29);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2023-01-12 00:00:00', 54177.01, 16, 86, 59);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2023-10-02 00:00:00', 95147.0, 71, 51, 54);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2024-12-27 00:00:00', 39573.24, 6, 20, 68);
-INSERT INTO venda (data_venda, valor, cliente_id_cliente, cavalo_id_cavalo, funcionario_id_funcionario) VALUES ('2023-09-26 00:00:00', 12305.06, 15, 42, 21);
