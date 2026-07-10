@@ -30,20 +30,26 @@ Além disso, o projeto utiliza **Views** e **Triggers** para facilitar consultas
 
 ```
 bd-banco/
-├── consultas/
-│   ├── 4_visao1.sql
-│   └── 4_visao1.md
 │
-├── scripts/
-│   ├── 1_esquema.sql
-│   ├── 2_populacao.sql
-│   ├── 3_trigger.sql
-│   ├── 3_trigger.md
-│   └── 3_triggerAtivado.sql
+├── dados/
 │
 ├── inicializar/
-├── dados/
-├── docker-compose.yml
+│   ├── 1_esquema.md
+│   └── 1_esquema.sql
+│
+├── scripts/
+│   ├── 2_popular.md
+│   ├── 2_popular.sql
+│   ├── 3_trigger.md
+│   ├── 3_trigger.sql
+│   ├── 3_triggerAtivado.sql
+│   ├── 4_visao1.md
+│   └── 4_visao1.sql
+│
+└── docker-compose.yml
+
+
+├── GRUPO.md
 ├── README.md
 └── .gitignore
 ```
@@ -59,6 +65,7 @@ bd-banco/
 ---
 
 # Inicializando o Banco
+(Certifique-se de que está na pasta bd-banco. Caso não esteja, clique com o botão direito na pasta bd-banco e execute os comandos em um novo terminal integrado.)
 
 Para iniciar o container execute:
 
@@ -103,7 +110,7 @@ SOURCE ./scripts/3_trigger.sql;
 ```
 
 ```sql
-SOURCE ./consultas/4_visao1.sql;
+SOURCE ./scripts/4_visao1.sql;
 ```
 
 ---
